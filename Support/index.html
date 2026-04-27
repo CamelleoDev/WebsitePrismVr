@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<style>
+    @font-face {
+        font-family: 'Pixel';
+        src: url('fonts/vcr.ttf') format('ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @keyframes shadows {
+        0%   { box-shadow: 0 0 10px var(--glow), 0 0 20px var(--glow), 0 0 30px var(--glow); }
+        50%  { box-shadow: 0 0 20px var(--glow), 0 0 40px var(--glow), 0 0 60px var(--glow); }
+        100% { box-shadow: 0 0 10px var(--glow), 0 0 20px var(--glow), 0 0 30px var(--glow); }
+    }
+    .contact-grid {
+        justify-content: center;
+        gap: 20px;
+    }
+    body {
+        background-color: rgb(18, 16, 16);
+        font-family: 'Pixel', Arial, sans-serif;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    h3 {
+        color: lightslategray;
+        text-align: center;
+    }
+    p {
+        color: white;
+        text-align: center;
+    }
+    a {
+        color: #48abe0;
+    }
+    .card {
+        background-color: #242222;
+        width: 300px;
+        border: #181616;
+        padding: 20px;
+        margin: 20px auto;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .bigcard {
+        background-color: #242222;
+        width: 300px;
+        border: #181616;
+        padding: 50px;
+        margin: 20px auto;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .smallcard {
+        background-color: #242222;
+        width: 300px;
+        border: #181616;
+        padding: 1px;
+        margin: 20px auto;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .outerboxglowanim {
+        position: relative;
+        width: 300px;
+        height: 100px;
+        margin: 40px auto;
+        padding: 1%;
+        border-radius: 5px;
+        background: #242222;
+        text-align: center;
+        color: white;
+        box-shadow: 0 0 10px #0026ff, 0 0 20px #6f00ff, 0 0 30px #0084ff;
+        animation: shadows 5s infinite;
+    }
+    h4 {
+        color: gray;
+        font-size: 12px;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1 class="card">Support - Prism VR</h1>
+    <h3>Contact Us</h3>
+    <p style="text-align: center; color: whitesmoke">If you have any questions, concerns, or feedback, please don't hesitate to reach out.</p>
+    <div class="contact-grid">
+        <div class="outerboxglowanim" style="--glow: #48abe0;">
+        <h2>Email</h2>
+        <p><a href="mailto:support@prismvr.com">support@prismvr.com</a></p>
+    </div>
+    <div class="outerboxglowanim" style="--glow: #7103cc;">
+        <h2>Discord</h2>
+        <p><a href="https://discord.gg/zBe2aaVzC">Prism VR Discord</a></p>
+    </div>
+    <div class="outerboxglowanim" style="--glow: #00ff00;">
+        <h2>Youtube</h2>
+        <p><a href="https://youtube.com/CamelleoDev">https://youtube.com/CamelleoDev</a></p>
+    </div>
+    <div class="outerboxglowanim" style="--glow: #ff00ff;">
+        <h2>Tiktok</h2>
+        <p><a href="https://tiktok.com/@camelleo1">https://tiktok.com/@camelleo1</a></p>
+    </div>
+    <div class="outerboxglowanim" style="--glow: #00ffff;">
+        <h2>Twitter</h2>
+        <p><a href="https://twitter.com/CamelleoGameDev">https://twitter.com/CamelleoGameDev</a></p>
+    </div>
+    <div class="outerboxglowanim" style="--glow: #ff0000;">
+        <h2>For Business Inquiries</h2>
+        <p><a href="mailto:camelleo@prismvr.com">camelleo@prismvr.com</a></p>
+    </div>
+    <h4>prism-vr.xyz</h4>
+</body>
+</html>
