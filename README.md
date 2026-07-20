@@ -1,3 +1,3 @@
 # Prism VR Website
 
-just a website for https://prism-vr.xyz
+just a website for https://prism-vr.online
